@@ -1,0 +1,160 @@
+html{
+  color:rgb(255, 255, 255);
+}
+
+a{
+  color:rgb(255, 100, 33);
+  text-decoration: none; /*去超連結底線*/
+}
+
+a:hover{
+  color:rgb(255, 181, 250); /* 當滑鼠經過時，超連結文字顏色變成桃紅色 */
+  position: relative; /* 當滑鼠經過超連結時，超連結往右下位移1像素 */
+  top: 3px;
+  left: 3px;
+}
+
+body{
+  margin: 0px;
+}
+
+.background{
+  height: 100%;
+  width: 100%;
+  background-size: 100%;
+  position: fixed;
+  z-index: -100;
+  background:linear-gradient(to bottom,black,gray);
+}
+
+.yoo{
+  width: 100%;
+  height: 300px;
+}
+
+header{
+  text-align: center;
+  height: 250px;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  padding: none;
+  background:linear-gradient(to bottom,black,rgba(45, 43, 43, 0.8));
+
+}
+
+
+nav{
+  text-align: center;
+  height: 50px;
+  width: 100%;
+}
+
+nav a{
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+nav ul li{
+  padding: 50px;
+  display: inline;
+}
+
+article{
+  text-align: center;
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+
+article h1{
+  font-size: 40px;
+}
+
+#me p{
+  font-size: 18px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  line-height:24px;
+  padding-bottom: 50px;
+}
+
+#history h2{
+  color: rgb(249, 129, 244);
+}
+
+#history p{
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+
+#history span{
+  color: rgb(255, 92, 92);
+}
+
+.center{
+  display: inline-block;
+  text-align: center;
+}
+
+.mask{
+width:250px;
+height:250px;
+overflow:hidden;
+float: left;
+margin: 20px;
+
+}
+.box1{
+width:200px;
+height:200px;
+margin:25px;
+}
+.box2{
+width:200px;
+height:200px;
+margin:25px;
+text-align: center;
+font-size: 18px;
+font-weight: bolder;
+padding-top: 10px;
+}
+
+
+.boxWrap{
+width:200;
+transition:margin-top .3s ease-out;  /*設置轉場樣式*/
+}
+.boxWrap:hover{margin-top:-230px;}  /*向上位移*/
+
+#recommend .anime{
+  color: black;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+#other{
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+  border-bottom-color: white;
+}
+
+#other ul li{
+  display: inline;
+  padding: 50px;
+}
+#other a{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+
+footer{
+  text-align: center;
+  line-height: 100px;
+  height: 200px;
+  width: 100%;
+  clear: both;
+}

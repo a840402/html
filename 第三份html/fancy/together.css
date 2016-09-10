@@ -1,0 +1,166 @@
+a{
+  text-decoration: none;
+  color: #ea4d35;
+  transition: all 0.3s linear;
+}
+
+a:hover{
+    color: #ffcac2; 
+}
+
+body{
+  margin: 0px;
+  /*background-color: pink;*/
+}
+
+header{
+  box-sizing: border-box;
+  padding-top: 8px;
+  width: 100%;
+  height: 9%;
+}
+
+.click a{
+  color: black;
+
+}
+
+header nav{
+  float: right;
+}
+
+header a{
+  padding-left: 10px;
+}
+
+header ul li{
+  display: inline;
+  padding-right: 35px;
+  padding-left: 30px;
+}
+
+.parallax-window{
+  min-height: 350px;
+  background: transparent;
+  margin-top: 10px;
+}
+
+.main{
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  position: relative;
+}
+
+.about ul li{
+  display: inline;
+}
+
+.main #about{
+  padding: 0px;
+}
+
+.main h1{
+  text-align: center;
+}
+
+.main hr{
+  border-width: 1px;
+  border-color: black;
+}
+
+.yoo {
+  text-align: center;
+}
+.main .yoo ul li{
+  display: inline;
+  padding: 30px;
+}
+
+.box1{
+  width: 100%;
+  height: 400px;
+  margin-top: 40px;
+}
+
+.box2{
+  float: left;
+  width: 430px;
+  height: 400px;
+}
+
+.box2 a{
+  font-size: 20px;
+}
+
+.box3{
+  float: left;
+  width: 430px;
+  height: 400px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.box3 a{
+  font-size: 20px;
+}
+
+.box4{
+  position: relative;
+  overflow: hidden;
+  height: 350px;
+  width: 430px;
+  margin-bottom: 5px;
+}
+
+.box4 img{
+  transition: all 0.5s linear;
+}
+
+.box4:hover img {
+	width: 470px;
+	height: 380px;
+  transform: translate(-25px, -25px);
+}
+
+
+
+.page{
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 50px;
+}
+
+.page ul li{
+  display: inline;
+  padding: 10px;
+}
+
+footer{
+  width: 100%;
+  height: 115px;
+  background-color: pink;
+  position: relative;
+}
+
+footer .about-footer{
+  position: absolute;
+  bottom: 25px;
+  left: 15px;
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+footer ul li{
+  display: inline;
+  padding: 10px;
+  float: right;
+}
+
+footer .icon{
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+}

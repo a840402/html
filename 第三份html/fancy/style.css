@@ -1,0 +1,77 @@
+body{
+  margin: 0px;
+  /*background-color: pink;*/
+}
+
+a{
+  transition: all 0.3s linear; /*轉場時間*/
+}
+
+a:hover{
+  color: #ffcac2;
+}
+
+header{
+  box-sizing: border-box;
+  padding-top: 8px;
+  width: 100%;
+  height: 9%;
+}
+
+header .click a{
+  color: black;
+
+}
+
+header nav{
+  float: right;
+}
+
+header a{
+  color: #ea4d35;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+header ul li{
+  display: inline;
+  padding-right: 35px;
+  padding-left: 30px;
+}
+
+.background{
+  width: 100%;
+  height: 91%;
+  background-position: center;
+  background-image: url(../fancy/fancy_img/imgin/strawberries-395590_1920.jpg) ;
+  /*text-align: center;*/
+  position: relative;
+}
+
+
+.background .index-footer{
+  position: absolute;
+  bottom: 35px;
+  left: 15px;
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.background .logo-center{
+  position: absolute;
+  right: 37%;
+  bottom: 27%;
+}
+
+.background .icon ul li{
+  display: inline;
+  padding: 10px;
+  float: right;
+}
+
+.background .icon{
+  position: absolute;
+  bottom: 35px;
+  right: 10px;
+}

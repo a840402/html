@@ -1,0 +1,108 @@
+a{
+  text-decoration: none;
+  color: #ea4d35;
+  transition: all 0.3s linear;
+}
+
+a:hover{
+    color: #ffcac2;
+}
+
+body{
+  margin: 0px;
+  /*background-color: pink;*/
+}
+
+header{
+  box-sizing: border-box;
+  padding-top: 8px;
+  width: 100%;
+  height: 9%;
+}
+
+header .click a{
+  color: black;
+
+}
+
+header nav{
+  float: right;
+}
+
+header a{
+  padding-left: 10px;
+}
+
+header ul li{
+  display: inline;
+  padding-right: 35px;
+  padding-left: 30px;
+}
+
+.parallax-window {
+  min-height: 350px;
+  background: transparent;
+  margin-top: 10px;
+}
+
+.content{
+  margin: 30px;
+  height: 430px;
+  position: relative;
+}
+
+.content ul li{
+  display: inline;
+}
+
+.content .about{
+  display: block;
+  width: 100%;
+  padding: 0px;
+}
+
+#box1{
+  float: left;
+}
+
+.content h1{
+  text-align: center;
+}
+
+.content .main p{
+  font-size: 16px;
+  line-height: 25px;
+}
+
+footer{
+  width: 100%;
+  height: 115px;
+  background-color: pink;
+  position: relative;
+}
+
+footer .about-footer{
+  position: absolute;
+  bottom: 25px;
+  left: 15px;
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+footer ul li{
+  display: inline;
+  padding: 10px;
+  float: right;
+}
+
+footer .icon{
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
